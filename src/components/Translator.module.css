@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    margin-top: 15%;
+    margin-left:10%;
+    
+   
+    justify-content: space-between; /* Distributes con1 and con2 with space in between */
+    gap: 15px; /* Optional: space between the two columns */
+  }
+
+body {
+    background-image: url('https://wallpapers.com/images/featured/translate-background-s1ozzco0u2mdg9yn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover ensures the image covers its container */
+    background-position: left center; /* Aligns the image to the left side */
+    height: 100vh;
+    margin: 0;
+}
+  
+  .con1, .con2 {
+    flex: 1; /* Each div takes an equal amount of available space */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    gap: 10px; /* Optional: space between dropdown and textarea */
+    filter: drop-shadow(10px 10px 10px rgb(96, 102, 78));
+  }
+  
+  
+  
+
+textarea{
+    grid-row: 4;
+    grid-column: 50;
+    height: 150px;
+    width: 300px;
+    margin-top: 10px;
+    flex: 1; /* Each div takes an equal amount of available space */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    gap: 10px;
+
+    border: 3px solid #d2e7d58a; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+
+}
+
+/* button{
+   
+    
+}
+button:hover{
+    display: block;
+    filter: drop-shadow(0   #2d1cad);
+
+} */
+button {
+    margin-top:220px;
+    height: 35px;
+    width: 85px;
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animation transition */
+}
+
+/* Button hover effect */
+button:hover {
+    /* Apply a subtle scale effect */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    /* Add a drop-shadow effect */
+    filter: drop-shadow(0px 4px 8px rgba(45, 28, 173, 0.5)); /* Creates a shadow under the button */
+}
+
+
+
+
+.con1{
+    margin-left: 10%;
+}
+.con2{
+    margin-right: 25%;
+}
+
+

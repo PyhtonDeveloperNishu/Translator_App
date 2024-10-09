@@ -1,0 +1,21 @@
+/* Main container that fills half the screen */
+
+  
+  /* The select container that takes full width */
+  .select_container {
+    width: 310px; 
+    height: 38px;
+    border: 2px solid #dfd6ed8a; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+    background-color: #fff; /* Background color */
+    appearance: none; /* Removes default dropdown icon styling for consistency */
+
+  }
+  
+  /* Custom style for the select button */
+  
+  
+
+  
+
