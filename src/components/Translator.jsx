@@ -44,6 +44,7 @@ const Translator = () => {
   
 
   return (
+    <><h1>Language Translator</h1>
     <div className={style.container}>
        
       <div className={style.con1}>
@@ -82,6 +83,7 @@ const Translator = () => {
       </div>
       
     </div>
+    </>
   );
 };
 

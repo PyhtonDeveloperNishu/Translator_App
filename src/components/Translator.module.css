@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    margin-top: 15%;
+    margin-top: 2%;
     margin-left:10%;
     
    
@@ -31,7 +31,7 @@ body {
 textarea{
     grid-row: 4;
     grid-column: 50;
-    height: 150px;
+    height: 300px;
     width: 300px;
     margin-top: 10px;
     flex: 1; /* Each div takes an equal amount of available space */
@@ -55,7 +55,7 @@ button:hover{
 
 } */
 button {
-    margin-top:220px;
+    margin-top:150px;
     height: 35px;
     width: 85px;
     background-color: #007bff; /* Button background color */
@@ -65,7 +65,12 @@ button {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animation transition */
 }
-
+h1{
+    margin-top: 110px;
+    margin-left: 450px;
+    text-shadow: 0 0 20px #00fffb ,0 0 40px #0081bc;
+    color: white;
+}
 /* Button hover effect */
 button:hover {
     /* Apply a subtle scale effect */
@@ -83,5 +88,7 @@ button:hover {
 .con2{
     margin-right: 25%;
 }
+
+
 
 
